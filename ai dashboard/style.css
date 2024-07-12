@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2077bf;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;  /* Stack header elements vertically */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;  /* Align logo, heading, and tagline horizontally */
+}
+
+.header-content h1 {
+    font-size: 28px;
+    margin-left: 10px;  /* Adjust spacing between logo and heading */
+}
+
+.header-content p {  /* Style the tagline */
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;  /* Align navigation links to the right */
+    margin-top: auto;  /* Move navigation links to the bottom of the header */
+}
+
+.header-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.header-nav a:hover {
+    background-color: #1a6bbb;
+    border-radius: 5px;
+}
+
+.username {
+    color: inherit;
+}
+
+main {
+    padding: 20px;
+}
+
+.course-content {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-content h2 {
+    color: #2077bf;  /* Use the same blue color from the header */
+    font-size
